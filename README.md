@@ -2,7 +2,7 @@
 
 A **5-panelist forecasting system** that runs a structured debate between independent LLMs to produce calibrated probability forecasts — the same architecture used by Metaculus, Polymarket, and ForecastBench.
 
-Built by **Hayderi** (2026), designed around a simple idea: *more independent AI minds + real data + scored track records = better predictions than any single model.*
+Designed around a simple idea: *more independent AI minds + real data + scored track records = better predictions than any single model.*
 
 ## 🔮 How It Works
 
@@ -34,7 +34,7 @@ Different AI companies train their models differently. When 5 independent famili
 - Genuine disagreement surfaces real uncertainty
 - The **spread collapse** across rounds is the proof of learning
 
-*Observed: Pakistan 2027 forecast spread collapsed from 19pts → 7pts across 3 rounds.*
+*Observed: a market-entry forecast spread collapsed from 19pts → 7pts across 3 rounds.*
 
 ## 📦 What's Inside
 
@@ -42,7 +42,7 @@ Different AI companies train their models differently. When 5 independent famili
 |---|---|
 | `src/ledger.py` | Brier scoring ledger (SQLite) — record/resolve/weights |
 | `docs/debate-recipe.md` | Copy-ready prompt templates for all 3 rounds |
-| `examples/` | Full worked example (Pakistan security forecast) |
+| `examples/` | Full worked example (synthetic market-entry forecast) |
 
 ## 🚀 Quick Start
 
